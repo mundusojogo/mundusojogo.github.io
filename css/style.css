@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+}
+
+/*navbar*/
+.navbar-default .navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: #4dc1ec;
+    text-shadow: 1px 0 5px #4dc1ec;
+    font-size: 2em;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active {
+    color: #4dc1ec;
+    text-shadow: 1px 0 10px #4dc1ec;
+}
+.navbar {
+   background-color: rgba(0, 0, 0, 0.7);
+   border: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: 'Play', 'sans-serif';
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default navbar-nav>li>a:active, .navbar-default navbar-nav>li>a:focus {
+    color:#4dc1ec;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+    color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, navbar-default .navbar-toggle:active {
+    color: #4dc1ec;
+    background-color: transparent;
+    text-shadow: 1px 0 5px #4dc1ec;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar .navbar-default .navbar-fixed-top container-fluid {
+    height: 20%;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+
+/* Tela welcome */
+.welcome {
+    text-align: center;
+    height: 100vh;
+    background: url(../img/welcome_screen.png) center;
+}
+.welcome h1 {
+    margin: auto auto;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8em;
+    color: #4dc1ec;
+    text-shadow: 1px 0 10px #4dc1ec;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.menu {
+    margin: 0 auto;
+    font-family: 'Play', sans-serif;
+    color: #4dc1ec;
+    text-transform: uppercase; 
+}
+.menu:hover, .menu:active, .menu:focus {
+    text-decoration: none;
+    color: #4dc1ec;
+    text-shadow: 1px 0 5px #4dc1ec;
+}
+
+/*containers*/
+.inicio, .cristais, .mundus, .jogar {
+    height: 100vh;
+}
+
+/*texto e título*/
+.texto {
+    background-color: black;
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 700;
+    font-size: 1.05em;
+    text-align: justify;
+}
+.titulo {
+    padding: 8%;
+    text-align: center;
+    font-family: 'Play', 'sans-serif';
+    color: #4dc1ec;
+    text-shadow: 1px 0 5px #4dc1ec;
+    text-transform: uppercase;
+}
+
+/* toggle questions */ 
+.questions {
+    font-family: 'Play', sans-serif;
+    color: #4dc1ec;
+}
+.questions:hover, .questions:active, .questions:focus {
+    text-decoration: none;
+    color: #4dc1ec;
+    text-shadow: 1px 0 5px #4dc1ec;
+    cursor: pointer;
+}
+.contato {
+    height: 80vh;
+}
+
+/* formulario */
+.form-group {
+    text-align: right;
+    float: center;
+    padding: 0 20%;
+}
+.enviar, .exp {
+    text-align: center;
+}
+.enviar a {
+    font-family: 'Play', sans-serif;
+    color: #4dc1ec;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+.enviar a:hover, .enviar a:active, .enviar a:focus {
+    text-decoration: none;
+    text-shadow: 1px 0 5px #4dc1ec;
+}
+.form-group .row {
+    margin-top: 5%;
+}
+.exp {
+    margin-bottom: 3%;
+}
+.campo {
+    margin-bottom: 3%;
+    text-align: right;
+}
+
+footer .container-fluid {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+

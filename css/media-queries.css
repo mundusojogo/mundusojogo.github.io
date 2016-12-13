@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+    .welcome h1 {
+    font-size: 3em;
+    }
+    .menu {
+        font-size: 0.8em;
+    }
+}
